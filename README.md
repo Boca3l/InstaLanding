@@ -10,5 +10,5 @@ Conceitos desenvolvidos:
 - [x] CSS 3
 - [x] HTML 5
 - [x] Flexbox
-- [x] Classes, id's e subclasses
+- [x] Classes, id's e pseudo-classes
 - [x] Alinhamento
