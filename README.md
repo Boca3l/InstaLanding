@@ -3,7 +3,7 @@
 
  Reproduzir com meus conhecimentos a Landing page do Instagram, utilizando os conceitos aprendidos sobre HTML e CSS.
  
- [Acesse o layout aqui](https://boca3l.github.io/mestre-rpg/)
+ [Acesse o layout aqui](https://boca3l.github.io/InstaLanding/)
 
 Conceitos desenvolvidos:
 
