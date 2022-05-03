@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+
+#insta-phone img{
+    max-width: 300px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    max-width: 700px;
+    min-height: 600px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+footer{
+    height: 20vh;
+    max-width: 700px;
+    margin: auto;
+}
+
+.side{
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    flex: 1;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login img{
+    max-width: 175px;
+}
+
+.login input{
+    border: none;
+    line-height: 35px;
+    width: 250px;
+    color: white;
+    font-weight: 700;
+    border-radius: 3px;
+    border: 1px solid rgb(190, 190, 190)
+}
+
+.login input::placeholder{
+    font-weight: 300;
+    font-size: 11px;
+    padding: 10px;
+}
+
+.btnEntrar{
+    background-color: rgb(0, 153, 255);
+    border: none;
+    width: 252px;
+    opacity: .3;
+}
+
+.border{
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 1px;
+}
+
+.padding-m{
+    padding: 20px;
+}
+
+.mt-g{
+    margin-top: 40px;
+}
+
+.mb{
+    margin-bottom: 10px;
+}
+
+.mb-m{
+    margin-bottom: 20px;
+}
+
+.mb-g{
+    margin-bottom: 30px;
+}
+
+.btnImg{
+    max-height: 40px;
+}
+
+h2{
+    font-size: 12px;
+}
+
+h2 a{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(64, 87, 219);
+}
+
+span{
+    display: flex;
+    align-items: center;
+}
+
+span h2{
+    color: rgb(120, 120, 120);
+    margin: 10px 15px;
+    font-weight: 500;
+}
+
+.line{
+    background-color: rgb(190, 190, 190);
+    width: 100px;
+    height: 1px;
+}
+
+.faceLogin{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(36, 56, 121);
+    gap: 5px;
+}
+
+.icoFace{
+    height: 15px;
+}
+
+.esqueceuSenha{
+    font-size: 11px;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(33, 49, 104);
+}
+
+.linksList, .credits{
+    text-align: center;
+}
+
+.linksList a, .credits{
+    color: rgb(120, 120, 120);
+    text-decoration: none;
+    font-size: 11px;
+    padding: 8px;
+}
+
+.credits{
+    display: flex;
+    justify-content: center;
+}
+
+.credits h3{
+    padding: 0px 15px;
+    font-size: 11px;
+}
+
+@media screen and (max-width: 720px) {
+    #insta-phone{
+        display: none;
+    }
+
+    .container{
+        width: 350px;
+    }
+    
+}
